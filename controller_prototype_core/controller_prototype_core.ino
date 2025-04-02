@@ -113,22 +113,22 @@ CCButton button5{
 };
 
 // CLUSTER 6
-// auxilliary bank
-CCPotentiometer potCluster6[]{
-  { A6, { MIDI_CC::Effects_1, Channel_6 } },
-  { A7, { MIDI_CC::Effects_2, Channel_6 } },
-  { A8, { MIDI_CC::Effects_3, Channel_6 } }
+// auxilliary bank -- too annoying to deal with, so removed for now
+// CCPotentiometer potCluster6[]{
+//   { A6, { MIDI_CC::Effects_1, Channel_6 } },
+//   { A7, { MIDI_CC::Effects_2, Channel_6 } },
+//   { A8, { MIDI_CC::Effects_3, Channel_6 } }
 
-};
-CCRotaryEncoder enc6{
-  { 2, 1 },    // pins
-  {MIDI_CC::Effects_4, Channel_6},  // MIDI address (CC number + optional channel)
-  2,             // optional multiplier if the control isn't fast enough
-};
-CCButton button6{
-  0,
-  { MIDI_CC::General_Purpose_Controller_1, Channel_6 },
-};
+// };
+// CCRotaryEncoder enc6{
+//   { 2, 1 },    // pins
+//   {MIDI_CC::Effects_4, Channel_6},  // MIDI address (CC number + optional channel)
+//   2,             // optional multiplier if the control isn't fast enough
+// };
+// CCButton button6{
+//   0,
+//   { MIDI_CC::General_Purpose_Controller_1, Channel_6 },
+// };
 
 
 
